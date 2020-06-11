@@ -46,7 +46,7 @@ def earliest_ancestor(ancestors, starting_node):
     q.enqueue([starting_node])
     path_to_ans = []
     while q.size() > 0:
-
+        # [1, 2, 4]
         path = q.dequeue()
         cur = path[-1]
  
